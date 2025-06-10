@@ -1,0 +1,397 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AE4E294D-33A1-4016-A8E7-6077CEC70054}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Project2_JW.My.MyApplication</StartupObject>
+    <RootNamespace>Project2_JW</RootNamespace>
+    <AssemblyName>Project2_JW</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Project2_JW.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Project2_JW.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmAddAttendantFlights.Designer.vb">
+      <DependentUpon>frmAddAttendantFlights.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddAttendantFlights.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddAttendants.Designer.vb">
+      <DependentUpon>frmAddAttendants.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddAttendants.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddCustomerFlight.Designer.vb">
+      <DependentUpon>frmAddCustomerFlight.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddCustomerFlight.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddFlight.Designer.vb">
+      <DependentUpon>frmAddFlight.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddFlight.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddPilotFlights.Designer.vb">
+      <DependentUpon>frmAddPilotFlights.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddPilotFlights.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddPilots.Designer.vb">
+      <DependentUpon>frmAddPilots.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddPilots.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAdministratorMainMenu.Designer.vb">
+      <DependentUpon>frmAdministratorMainMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAdministratorMainMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCustomerLogin.Designer.vb">
+      <DependentUpon>frmCustomerLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCustomerLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Old Forms %28From P2 Login%29\frmAttendantLogin.Designer.vb">
+      <DependentUpon>frmAttendantLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Old Forms %28From P2 Login%29\frmAttendantLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAttendantMainMenu.Designer.vb">
+      <DependentUpon>frmAttendantMainMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAttendantMainMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCustomerCreationMenu.Designer.vb">
+      <DependentUpon>frmCustomerCreationMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCustomerCreationMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCustomerMainMenu.Designer.vb">
+      <DependentUpon>frmCustomerMainMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCustomerMainMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDeleteAttendants.Designer.vb">
+      <DependentUpon>frmDeleteAttendants.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDeleteAttendants.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDeletePilots.Designer.vb">
+      <DependentUpon>frmDeletePilots.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDeletePilots.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEmployeeLogin.Designer.vb">
+      <DependentUpon>frmEmployeeLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEmployeeLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFlyMe2theMoonStatistics.Designer.vb">
+      <DependentUpon>frmFlyMe2theMoonStatistics.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmFlyMe2theMoonStatistics.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMainMenu.Designer.vb">
+      <DependentUpon>frmMainMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMainMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManageAttendants.Designer.vb">
+      <DependentUpon>frmManageAttendants.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmManageAttendants.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManagePilots.Designer.vb">
+      <DependentUpon>frmManagePilots.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmManagePilots.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Old Forms %28From P2 Login%29\frmPilotLogin.Designer.vb">
+      <DependentUpon>frmPilotLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Old Forms %28From P2 Login%29\frmPilotLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPilotMainMenu.Designer.vb">
+      <DependentUpon>frmPilotMainMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPilotMainMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmShowFutureAttendantFlights.Designer.vb">
+      <DependentUpon>frmShowFutureAttendantFlights.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmShowFutureAttendantFlights.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmShowFutureCustomerFlights.Designer.vb">
+      <DependentUpon>frmShowFutureCustomerFlights.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmShowFutureCustomerFlights.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmShowFuturePilotFlights.Designer.vb">
+      <DependentUpon>frmShowFuturePilotFlights.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmShowFuturePilotFlights.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmShowPastAttendantFlights.Designer.vb">
+      <DependentUpon>frmShowPastAttendantFlights.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmShowPastAttendantFlights.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmShowPastCustomerFlights.Designer.vb">
+      <DependentUpon>frmShowPastCustomerFlights.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmShowPastCustomerFlights.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmShowPastPilotFlights.Designer.vb">
+      <DependentUpon>frmShowPastPilotFlights.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmShowPastPilotFlights.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUpdateAttendantProfile.Designer.vb">
+      <DependentUpon>frmUpdateAttendantProfile.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmUpdateAttendantProfile.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUpdateCustomerProfile.Designer.vb">
+      <DependentUpon>frmUpdateCustomerProfile.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmUpdateCustomerProfile.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUpdatePilotProfile.Designer.vb">
+      <DependentUpon>frmUpdatePilotProfile.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmUpdatePilotProfile.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Old Forms %28From P2 Login%29\frmUserSelect.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Old Forms %28From P2 Login%29\frmUserSelect.Designer.vb">
+      <DependentUpon>frmUserSelect.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modDatabaseUtilities.vb" />
+    <Compile Include="modGlobals.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmAddAttendantFlights.resx">
+      <DependentUpon>frmAddAttendantFlights.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddAttendants.resx">
+      <DependentUpon>frmAddAttendants.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddCustomerFlight.resx">
+      <DependentUpon>frmAddCustomerFlight.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddFlight.resx">
+      <DependentUpon>frmAddFlight.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddPilotFlights.resx">
+      <DependentUpon>frmAddPilotFlights.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddPilots.resx">
+      <DependentUpon>frmAddPilots.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAdministratorMainMenu.resx">
+      <DependentUpon>frmAdministratorMainMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCustomerLogin.resx">
+      <DependentUpon>frmCustomerLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Old Forms %28From P2 Login%29\frmAttendantLogin.resx">
+      <DependentUpon>frmAttendantLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAttendantMainMenu.resx">
+      <DependentUpon>frmAttendantMainMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCustomerCreationMenu.resx">
+      <DependentUpon>frmCustomerCreationMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCustomerMainMenu.resx">
+      <DependentUpon>frmCustomerMainMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDeleteAttendants.resx">
+      <DependentUpon>frmDeleteAttendants.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDeletePilots.resx">
+      <DependentUpon>frmDeletePilots.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEmployeeLogin.resx">
+      <DependentUpon>frmEmployeeLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFlyMe2theMoonStatistics.resx">
+      <DependentUpon>frmFlyMe2theMoonStatistics.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMainMenu.resx">
+      <DependentUpon>frmMainMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManageAttendants.resx">
+      <DependentUpon>frmManageAttendants.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManagePilots.resx">
+      <DependentUpon>frmManagePilots.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Old Forms %28From P2 Login%29\frmPilotLogin.resx">
+      <DependentUpon>frmPilotLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPilotMainMenu.resx">
+      <DependentUpon>frmPilotMainMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmShowFutureAttendantFlights.resx">
+      <DependentUpon>frmShowFutureAttendantFlights.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmShowFutureCustomerFlights.resx">
+      <DependentUpon>frmShowFutureCustomerFlights.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmShowFuturePilotFlights.resx">
+      <DependentUpon>frmShowFuturePilotFlights.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmShowPastAttendantFlights.resx">
+      <DependentUpon>frmShowPastAttendantFlights.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmShowPastCustomerFlights.resx">
+      <DependentUpon>frmShowPastCustomerFlights.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmShowPastPilotFlights.resx">
+      <DependentUpon>frmShowPastPilotFlights.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUpdateAttendantProfile.resx">
+      <DependentUpon>frmUpdateAttendantProfile.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUpdateCustomerProfile.resx">
+      <DependentUpon>frmUpdateCustomerProfile.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUpdatePilotProfile.resx">
+      <DependentUpon>frmUpdatePilotProfile.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Old Forms %28From P2 Login%29\frmUserSelect.resx">
+      <DependentUpon>frmUserSelect.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
