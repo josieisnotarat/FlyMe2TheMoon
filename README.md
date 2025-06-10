@@ -1,7 +1,7 @@
 # ✈️ FlyMe2theMoon — Final Project (Programming 2)
 
 ## 📋 Overview
-**FlyMe2theMoon** is a complete CRUD-based airline management system built in **Visual Basic** with a **SQL Server** backend. Designed for Programming 2’s final project, it features secure logins, role-based menus, flight bookings, and dynamic pricing logic. Perfect for portfolio display or impressing your future software overlords. 💼✨
+**FlyMe2theMoon** is a complete CRUD-based airline management system built in **Visual Basic** with a **SQL Server** backend. Designed for Programming 2’s final project, it features secure logins, role-based menus, flight bookings, and dynamic pricing logic. 
 
 ---
 
@@ -96,4 +96,3 @@ This project demonstrates:
 - Stored procedure integration
 - SQL + VB interoperability
 
-✨It’s the full-stack VB+SQL moment.✨
