@@ -13,6 +13,15 @@ I do **not** condone academic dishonesty and am **not responsible** for any misu
 
 ---
 
+## 🚀 Skills Utilized
+This project demonstrates:
+- CRUD operations
+- Role-based access control
+- Stored procedure integration
+- SQL + VB interoperability
+
+---
+
 ## 🧠 Features
 
 ### 🔐 Login System
@@ -93,14 +102,5 @@ Stored procs were used for:
 - Dynamic flight cost logic coded directly in booking form logic
 - Future flights and staff assignment handled with proper foreign key logic
 
----
 
-## 🚀 Portfolio Power
-This project demonstrates:
-- CRUD operations
-- Secure login systems
-- Role-based access control
-- Real-time business logic
-- Stored procedure integration
-- SQL + VB interoperability
 
